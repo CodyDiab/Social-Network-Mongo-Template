@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 //app.use(express.static('public'));
 
-//app.use(require('./routes'));
+app.use(require('./routes'));
 
 mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost/socialnet', {
     useFindAndModify: false,
