@@ -19,7 +19,7 @@ const UserSchema = new Schema(
             type: String,
             required: 'You must provide a unique email address',
             unique: true,
-            match:[/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3},'Please provide a valid email']
+            match:[/(.+)@(.+){2,}\.(.+){2,}/,'Please provide a valid email']
         },
         thoughts:[{
             type: Schema.Types.ObjectId,
