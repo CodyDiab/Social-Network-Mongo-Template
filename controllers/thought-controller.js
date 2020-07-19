@@ -16,26 +16,7 @@ const ThoughtController = {
             res.status(500).json(err)
         })
     },
-    //get all thoughts by user
-    // getAllThoughtsByUser({params},res){
-    //     Thought.find({userId: params.userId})
-    //     .populate({
-    //         path: 'reactions',
-    //         select: '-__v'
-    //     })
-    //     .select('-__v')
-    //     .then(dbThoughtData => 
-    //          {if(!dbThoughtData){
-    //         res.status(404).json({message: 'No thought found for this user!'});
-    //         return;
-    //        }
-    //       res.json(dbThoughtData)
-    //    })
-    //     .catch(err => {
-    //         console.log(err);
-    //         res.status(500).json(err)
-    //     })
-    // },
+   
     //get one thought by id
     getThoughtById({params}, res) {
         Thought.findOne({_id: params.id})

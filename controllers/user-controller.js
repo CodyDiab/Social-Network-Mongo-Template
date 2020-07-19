@@ -106,6 +106,6 @@ const UserController = {
     }
 }
 
-/// remove users thoughts when deleted? cascade?
+
 
 module.exports = UserController;
