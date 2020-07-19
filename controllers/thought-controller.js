@@ -82,8 +82,8 @@ const ThoughtController = {
 
     //put (update thought by id)
     updateThought( { params, body}, res) {
+        console.log(body)
         Thought.findByIdAndUpdate({_id: params.id},body, {new:true})
-         console.log(body)
          .then(dbThoughtData => {
             if(!dbThoughtData) {
             res.status(404).json({message: 'No thought found with this id!'});
