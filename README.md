@@ -32,8 +32,8 @@
   ## Contributing
   If one would like to contribute, please open a new issue or contact my email below.
   ## Demo
-  <iframe src="https://drive.google.com/file/d/1cjO_ASA5sUZKZkG9ckOUJv0Zd6jMbV2m/preview" width="640" height="480"></iframe>
-
+  
+  [Link to Video Demonstration](https://drive.google.com/file/d/1cjO_ASA5sUZKZkG9ckOUJv0Zd6jMbV2m/view)
   
   ## Questions
   [Email](mailto:emailcodydiab@gmail.com)
